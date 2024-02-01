@@ -73,7 +73,7 @@
                   "type": "ALIAS",
                   "content": {
                     "type": "PATTERN",
-                    "value": "# -+ >8 -+\\r?\\n# Do not modify or remove the line above.\\r?\\n# Everything below it will be ignored.\\r?\\n?"
+                    "value": "# -+ >8 -+\\r?\\n# .*\\r?\\n# .*\\r?\\n?"
                   },
                   "named": true,
                   "value": "scissors"

@@ -37,7 +37,7 @@ const LEXICAL_PRECEDENCE = {
 };
 
 const SCISSORS =
-  /# -+ >8 -+\r?\n# Do not modify or remove the line above.\r?\n# Everything below it will be ignored.\r?\n?/;
+  /# -+ >8 -+\r?\n# .*\r?\n# .*\r?\n?/;
 
 module.exports = grammar({
   name: "git_commit",
